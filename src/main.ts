@@ -14,7 +14,12 @@ async function bootstrap() {
 	/* app.useGlobalFilters(new HttpExceptionFilter()); */
 	/* app.useGlobalGuards(new AuthGuard()); */
 
+	/* set view engine to html */
+	app.use(express.static(path.join(__dirname, 'dist')));
+	app.set('views', __dirname + '/dist');
+	app.set('view engine', 'html');
 	app.setGlobalPrefix('/api');
+
   await app.listen(3000);
 }
 bootstrap();
