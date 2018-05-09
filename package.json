@@ -1,7 +1,7 @@
 {
-  "name": "nest-typescript-starter",
+  "name": "workmeter-backend-app",
   "version": "1.0.0",
-  "description": "Nest TypeScript starter repository",
+  "description": "Nest TypeScript Backend Api",
   "license": "MIT",
   "scripts": {
     "format": "prettier --write \"**/*.ts\"",
@@ -64,5 +64,9 @@
       "^.+\\.(t|j)s$": "ts-jest"
     },
     "coverageDirectory": "../coverage"
+  },
+  "engines": {
+    "node": "6.9.1",
+    "npm": "5.6.0"
   }
 }
