@@ -10,9 +10,7 @@
     "target": "es6",
     "sourceMap": true,
     "allowJs": true,
-    "outDir": "./dist",
-    "types": [
-    ]
+    "outDir": "./dist"
   },
   "include": [
     "src/**/*"
