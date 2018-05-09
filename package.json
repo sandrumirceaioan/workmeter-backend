@@ -4,18 +4,10 @@
   "description": "NodeJS Nest App",
   "license": "MIT",
   "scripts": {
-    "format": "prettier --write \"**/*.ts\"",
     "start": "node index.js",
     "start:watch": "nodemon",
-    "prestart:prod": "rm -rf dist && tsc",
-    "start:prod": "node dist/main.js",
-    "test": "jest",
-    "test:cov": "jest --coverage",
-    "test:e2e": "jest --config ./test/jest-e2e.json",
-    "migrations:generate": "node_modules/ts-node/dist/bin.js node_modules/.bin/typeorm migrations:generate",
-    "migrations:run": "node_modules/ts-node/dist/bin.js node_modules/.bin/typeorm migrations:run",
-    "migrations:revert": "node_modules/ts-node/dist/bin.js node_modules/.bin/typeorm migrations:revert",
-    "lint": "node_modules/tslint/bin/tslint -t codeFrame 'src/**/*.ts'"
+    "prestart:prod": "tsc",
+    "start:prod": "node dist/main.js"
   },
   "dependencies": {
     "@nestjs/common": "^4.5.9",
@@ -40,7 +32,6 @@
     "rxjs": "^5.5.6",
     "socket.io": "^2.0.4",
     "typescript": "^2.6.2",
-    "typeorm": "0.1.11",
     "underscore": "^1.8.3"
   },
   "devDependencies": {
