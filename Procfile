@@ -1,2 +1,2 @@
 web: npm run start:prod
-release: npm run migrations:run
+release: npm run start:prod
