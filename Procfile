@@ -1,2 +1,2 @@
-web: npm run start:prod
-release: npm run start:prod
+web: yarn run start:prod
+release: yarn run migrations:run
