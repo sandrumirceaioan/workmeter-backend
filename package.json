@@ -9,7 +9,7 @@
     "start:watch": "nodemon",
     "prestart:prod": "tsc",
     "start:prod": "node dist/main.js",
-    "postinstall": "start"
+    "postinstall": "node dist/main.js"
   },
   "dependencies": {
     "@nestjs/common": "^4.5.9",
