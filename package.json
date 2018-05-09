@@ -4,10 +4,9 @@
   "description": "NodeJS Nest App",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon",
     "start:watch": "nodemon",
-    "prestart:prod": "tsc",
-    "start:prod": "node dist/main.js"
+    "prestart:prod": "tsc"
   },
   "dependencies": {
     "@nestjs/common": "^4.5.9",
