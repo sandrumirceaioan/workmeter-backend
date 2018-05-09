@@ -11,7 +11,11 @@
     "start:prod": "node dist/main.js",
     "test": "jest",
     "test:cov": "jest --coverage",
-    "test:e2e": "jest --config ./test/jest-e2e.json"
+    "test:e2e": "jest --config ./test/jest-e2e.json",
+    "migrations:generate": "node_modules/ts-node/dist/bin.js node_modules/.bin/typeorm migrations:generate",
+    "migrations:run": "node_modules/ts-node/dist/bin.js node_modules/.bin/typeorm migrations:run",
+    "migrations:revert": "node_modules/ts-node/dist/bin.js node_modules/.bin/typeorm migrations:revert",
+    "lint": "node_modules/tslint/bin/tslint -t codeFrame 'src/**/*.ts'"
   },
   "dependencies": {
     "@nestjs/common": "^4.5.9",
