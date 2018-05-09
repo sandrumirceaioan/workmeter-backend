@@ -7,7 +7,7 @@
     "start": "node index.js",
     "start:watch": "nodemon",
     "foreman": "foreman start -f Procfile.dev",
-    "prestart:prod": "tsc",
+    "prestart:prod": "tsc -p",
     "start:prod": "node dist/main.js",
     "lint": "node_modules/tslint/bin/tslint -t codeFrame 'src/**/*.ts'"
   },
@@ -17,7 +17,6 @@
     "@nestjs/microservices": "^4.5.8",
     "@nestjs/mongoose": "^3.0.1",
     "@nestjs/testing": "^4.5.5",
-    "@nestjs/typeorm": "^2.0.0",
     "@nestjs/websockets": "^4.5.8",
     "async": "^2.6.0",
     "body-parser": "^1.18.2",
