@@ -12,8 +12,6 @@
     "allowJs": true,
     "outDir": "./dist",
     "types": [
-      // add node as an option
-      "node"
     ]
   },
   "include": [
