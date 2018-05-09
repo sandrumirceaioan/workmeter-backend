@@ -1,6 +1,6 @@
 {
-  "name": "NestJS Boilerplate",
-  "description": "This app is a NestJS boilerplate that runs on Heroku out of the box",
+  "name": "Workmeter Backend App",
+  "description": "NodeJS Nest Backend App",
   "keywords": [
     "nestjs",
     "javascript",
@@ -8,7 +8,7 @@
     "nodejs",
     "api"
   ],
-  "repository": "https://github.com/jsanguinetti/nestjs-boilerplate-heroku",
+  "repository": "https://github.com/sandrumirceaioan/workmeter-backend",
   "env": {
     "SECRET": {
       "description": "A secret key for verifying the integrity of signed JWT.",
