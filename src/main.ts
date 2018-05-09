@@ -25,7 +25,7 @@ async function bootstrap() {
         title: 'Nest boilerplate',
         endpoint: '/docs'
     });
-		app.setGlobalPrefix('/api');
+
     await app.listen(parseInt(process.env.PORT) || 3000);
 }
 
