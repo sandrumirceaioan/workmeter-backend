@@ -1,4 +1,5 @@
-<p align="center">
+NodeJS Nest App
+<!-- <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="http://kamilmysliwiec.com/public/nest-logo.png#1" alt="Nest Logo" /></a>
 </p>
 
@@ -24,4 +25,4 @@ $ yarn run foreman
 ## People
 
 - Author - [Javier Sanguinetti](https://github.com/jsanguinetti)
-- Website - [https://nestjs.com](https://nestjs.com/)
+- Website - [https://nestjs.com](https://nestjs.com/) -->
