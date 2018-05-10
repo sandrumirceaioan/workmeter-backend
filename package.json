@@ -6,10 +6,10 @@
    "scripts": {
       "start": "node dist/main.js",
       "start:watch": "nodemon",
-      "foreman": "foreman start -f Procfile.dev",
-      "prestart:prod": "tsc",
+      "foreman": "foreman start -f Procfile.dev",,
       "start:prod": "node dist/main.js",
-      "lint": "node_modules/tslint/bin/tslint -t codeFrame 'src/**/*.ts'"
+      "lint": "node_modules/tslint/bin/tslint -t codeFrame 'src/**/*.ts'",
+      "postinstall": "tsc"
    },
    "dependencies": {
       "@nestjs/common": "^4.4.0",
@@ -24,7 +24,6 @@
       "class-validator": "^0.8.1",
       "cors": "^2.8.4",
       "dotenv": "^4.0.0",
-      "express": "^4.16.2",
       "jsonwebtoken": "^8.1.0",
       "morgan": "^1.9.0",
       "passport": "^0.4.0",
@@ -33,7 +32,19 @@
       "redis": "^2.7.1",
       "reflect-metadata": "^0.1.10",
       "request": "^2.83.0",
-      "rxjs": "^5.4.0",
+      "angular-font-awesome": "^3.1.2",
+      "bootstrap": "^3.3.7",
+      "core-js": "^2.4.1",
+      "express": "^4.16.3",
+      "font-awesome": "^4.7.0",
+      "jquery": "^3.3.1",
+      "moment": "^2.21.0",
+      "ng-socket-io": "^0.2.4",
+      "ngx-bootstrap": "^2.0.2",
+      "ngx-mydatepicker": "^2.4.5",
+      "path": "^0.12.7",
+      "rxjs": "^5.5.6",
+      "zone.js": "^0.8.19",
       "ts-node": "~3.3.0",
       "typeorm": "0.1.11",
       "typescript": "~2.7.0"
