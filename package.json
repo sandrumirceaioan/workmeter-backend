@@ -21,6 +21,7 @@
       "@nestjs/typeorm": "^2.0.0",
       "@nestjs/websockets": "^4.4.0",
       "@types/socket.io": "^1.4.33",
+      "@types/mongoose": "*",
       "async": "^2.6.0",
       "body-parser": "^1.18.2",
       "jsonwebtoken": "^8.1.0",
